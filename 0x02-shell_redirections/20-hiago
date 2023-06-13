@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ${input_str//C/} echo ${input_str//c/}
+output=$(tr -d 'cC" <input.txt)
