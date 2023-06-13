@@ -1,2 +1,2 @@
 #!/bin/bash
-echo output=$(echo "$input"|tr -d 'cC')
+echo ${input_str//C/} echo ${input_str//c/}
