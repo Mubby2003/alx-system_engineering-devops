@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ${input_str//C/} ${input_str//c/}
+echo "Output:$output"
